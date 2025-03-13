@@ -54,7 +54,7 @@ export const profileConfig: ProfileConfig = {
   // avatar: 'assets/images/demo-avatar.png',  // Relative to the /src directory. Relative to the /public directory if it starts with '/'
   avatar: 'https://avatars.githubusercontent.com/u/53612151?v=4',
   name: 'Eric / e0pwr',
-  bio: '請在這裡輸入 bio \n 但我不知道要打什麼 !!!!!',
+  bio: 'Network / Tech / Game / Infra / Homelab',
   links: [
     {
       name: 'Twitter',
