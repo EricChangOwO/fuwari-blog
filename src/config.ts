@@ -7,7 +7,7 @@ import type {
 import { LinkPreset } from './types/config'
 
 export const siteConfig: SiteConfig = {
-  title: 'Eric\'s Blog',
+  title: 'Eric / e0pwr',
   subtitle: '不知道欸，可能就是一個可以讓我寫 blog 的東西！！！',
   lang: 'zh_TW',         // 'en', 'zh_CN', 'zh_TW', 'ja', 'ko', 'es', 'th'
   themeColor: {
@@ -51,9 +51,10 @@ export const navBarConfig: NavBarConfig = {
 }
 
 export const profileConfig: ProfileConfig = {
-  avatar: 'assets/images/demo-avatar.png',  // Relative to the /src directory. Relative to the /public directory if it starts with '/'
-  name: 'Lorem Ipsum',
-  bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+  // avatar: 'assets/images/demo-avatar.png',  // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+  avatar: 'https://avatars.githubusercontent.com/u/53612151?v=4',
+  name: 'Eric / e0pwr',
+  bio: '請在這裡輸入 bio 但我不知道要打什麼 !!!!!',
   links: [
     {
       name: 'Twitter',
@@ -62,11 +63,11 @@ export const profileConfig: ProfileConfig = {
                                         // `pnpm add @iconify-json/<icon-set-name>`
       url: 'https://twitter.com/ericchangtw',
     },
-    {
-      name: 'Steam',
-      icon: 'fa6-brands:steam',
-      url: 'https://store.steampowered.com',
-    },
+    // {
+    //   name: 'Steam',
+    //   icon: 'fa6-brands:steam',
+    //   url: 'https://store.steampowered.com',
+    // },
     {
       name: 'GitHub',
       icon: 'fa6-brands:github',
