@@ -8,8 +8,6 @@ category: ''
 draft: false 
 lang: ''
 ---
-# 在 Windows 裡面的 VSCode 編譯並執行 C / C++ 但用的是 WSL 環境
-
 #### 這篇應該會非常 user friendly 所以高手應該可以直接跳著看，或著不看
 
 ### 前言
