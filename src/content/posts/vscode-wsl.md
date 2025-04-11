@@ -18,7 +18,7 @@ lang: ''
 所以找了個~~簡單一點的~~ (並沒有)，雖然要安裝 [WSL](https://zh.wikipedia.org/zh-tw/%E9%80%82%E7%94%A8%E4%BA%8ELinux%E7%9A%84Windows%E5%AD%90%E7%B3%BB%E7%BB%9F) 但對新手應該是不會太難吧，畢竟 VSCode 自己的[官方教學](https://code.visualstudio.com/docs/cpp/config-mingw)也有叫你用 MSY32 去裝，然後這樣還可以多多學習一下 Linux 的用法，非常好！！
 
 ### 先放個成品照
-![image](https://hackmd.io/_uploads/SktS9JvCJx.png)
+![image](https://i.imgur.com/bTz56dT.png)
 
 
 
@@ -26,7 +26,7 @@ lang: ''
 ## 1. 安裝 WSL
 首先，對著你的 Windows 按鈕按下滑鼠的右鍵，打開系統管理員的終端機
 
-![image](https://hackmd.io/_uploads/r107LJvCkx.png)
+![image](https://i.imgur.com/cnO8V08.png)
 
 開啟之後輸入
 ```
@@ -35,7 +35,7 @@ wsl --install
 
 之後照著指示走，中途可能會叫你重新開機，就按照他的步驟做，直到你看到終端機有多出一個 Ubuntu 的欄位給你選擇，恭喜你就安裝成功了！
 
-![image](https://hackmd.io/_uploads/ByOzPJwCJe.png)
+![image](https://i.imgur.com/CODpXbC.png)
 
 然後這時候你打開他可能會要你設定使用者名稱和密碼，請你好好記住
 然後如果過程沒有出現問題的話，這樣你的電腦裡面就會多出一個 Ubuntu 的子系統環境了！
@@ -48,7 +48,7 @@ wsl --install
 
 ### 2-1 安裝 Code Runner 插件
 
-![image](https://hackmd.io/_uploads/ry-1tJPA1e.png)
+![image](https://i.imgur.com/eu6ADGS.png)
 
 
 > 這裡簡單介紹一下 Code Runner 在幹嘛：
@@ -59,19 +59,19 @@ wsl --install
 安裝好之後，首先先設定一下預設的終端機設定檔，這樣 Code Runner 按下 Run Code 按鈕之後才會去用 WSL 環境去做執行，不然預設的話還是走 `cmd.exe`
 
 先來按加號右邊的按鈕，選取預設的終端機預設設定檔
-![image](https://hackmd.io/_uploads/BJeSjJw0yl.png)
+![image](https://i.imgur.com/QstARdu.png)
 然後接下來就會跳出這個視窗
-![image](https://hackmd.io/_uploads/ByuOo1wRkg.png)
+![image](https://i.imgur.com/HYZRe20.png)
 選擇 WSL 這樣他就會變成預設
 
 ### 2-3 Code Runner 設定
 
 首先到設定這裡來，如圖片上的按鈕
-![image](https://hackmd.io/_uploads/BkRXhkwA1x.png)
+![image](https://i.imgur.com/YLH6CXG.png)
 這時候你就會發現右上角多了一個檔案的按鈕，按下去你就可以到 `settings.json` 的編輯頁面來
-![image](https://hackmd.io/_uploads/SkxKnkvCkx.png)
+![image](https://i.imgur.com/1sCC7Kk.png)
 接下來你應該會看到類似這樣的畫面，然後你的一定跟我長不一樣，這是正常的
-![image](https://hackmd.io/_uploads/HkaC0kv0Jg.png)
+![image](https://i.imgur.com/K6MrKOS.png)
 
 
 然後接下來我們只需要把三行的設定加進去
@@ -100,7 +100,7 @@ sudo apt update && sudo apt install g++
 右上角的 Run Code 按下去
 
 ### 恭喜你安裝成功
-![image](https://hackmd.io/_uploads/rJQofewAJe.png)
+![image](https://i.imgur.com/bTz56dT.png)
 
 ## 後記
 Windows 就很麻煩，就這樣
