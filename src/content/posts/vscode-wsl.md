@@ -18,7 +18,13 @@ lang: ''
 ### 先放個成品照
 ![image](https://i.imgur.com/bTz56dT.png)
 
+## 0. 系統環境要求
+首先請你先確認你的 CPU 有把模擬打開，反正要跑虛擬機或模擬器應該都會提前開好的對....吧....
 
+![image](https://i.imgur.com/XgTgmIW.png)
+
+假如你`模擬`是停用狀態的話，請你轉到這裡看 BlueStacks 的教學
+https://support.bluestacks.com/hc/zh-tw/articles/360058102252-%E5%A6%82%E4%BD%95%E5%9C%A8Windows-10%E4%B8%8A%E7%82%BABlueStacks-5-%E5%95%9F%E7%94%A8%E8%99%9B%E6%93%AC%E5%8C%96-VT
 
 
 ## 1. 安裝 WSL
