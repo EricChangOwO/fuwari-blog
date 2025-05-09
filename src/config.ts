@@ -7,15 +7,15 @@ import type {
 import { LinkPreset } from './types/config'
 
 export const siteConfig: SiteConfig = {
-  title: 'Eric / e0pwr',
-  subtitle: '不知道欸，可能就是一個可以讓我寫 blog 的東西！！！',
+  title: 'Eric\'s Blog',
+  subtitle: 'owo hi',
   lang: 'zh_TW',         // 'en', 'zh_CN', 'zh_TW', 'ja', 'ko', 'es', 'th'
   themeColor: {
-    hue: 250,         // Default hue for the theme color, from 0 to 360. e.g. red: 0, teal: 200, cyan: 250, pink: 345
+    hue: 335,         // Default hue for the theme color, from 0 to 360. e.g. red: 0, teal: 200, cyan: 250, pink: 345
     fixed: false,     // Hide the theme color picker for visitors
   },
   banner: {
-    enable: true,
+    enable: false,
     src: 'assets/images/demo-banner.png',   // Relative to the /src directory. Relative to the /public directory if it starts with '/'
     position: 'center',      // Equivalent to object-position, only supports 'top', 'center', 'bottom'. 'center' by default
     credit: {
@@ -53,8 +53,8 @@ export const navBarConfig: NavBarConfig = {
 export const profileConfig: ProfileConfig = {
   // avatar: 'assets/images/demo-avatar.png',  // Relative to the /src directory. Relative to the /public directory if it starts with '/'
   avatar: 'https://avatars.githubusercontent.com/u/53612151?v=4',
-  name: 'Eric / e0pwr',
-  bio: '我很爛',
+  name: 'Eric Chang / e0pwr',
+  bio: 'a student interest in development and cybersecurity.',
   links: [
     {
       name: 'Twitter',
